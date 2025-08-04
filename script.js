@@ -174,5 +174,7 @@ const myFavoriteFootballTeam = {
 Object.freeze(myFavoriteFootballTeam);
 
 
-const sport = document.getElementById("myFavoriteFootballTeam");
+
+const { sport, team } = myFavoriteFootballTeam;
+
 
