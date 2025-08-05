@@ -187,7 +187,7 @@ const setPlayerCards = (arr = players) => {
     ({ name, position, number, isCaptain, nickname }) => {
      return `
         <div class="player-card">
-      
+          <h2>${name}${isCaptain ? "(Captain)":""}</h2>
         </div>
       `;
     }
